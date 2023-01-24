@@ -11,7 +11,9 @@ describe('TodoButtonDeleteAllComponent', () => {
       declarations: [ TodoButtonDeleteAllComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(TodoButtonDeleteAllComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

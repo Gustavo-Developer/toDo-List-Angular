@@ -11,7 +11,9 @@ describe('TodoInputAddItensComponent', () => {
       declarations: [ TodoInputAddItensComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(TodoInputAddItensComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
